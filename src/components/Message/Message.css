@@ -1,0 +1,59 @@
+.message {
+    margin-bottom: 10px;
+    padding: 10px;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    /* background-color: white; */
+    display: flex;
+    max-width: 90%;
+  }
+  
+  .sent {
+    /* background-color: #e6f7ff; */
+    align-self: flex-end;
+    /* width: 50%; */
+  }
+  
+  .received {
+    align-self: flex-start;
+    /* background-color: white; */
+  }
+  
+  .message-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .messageBody {
+    width: fit-content;
+    background-color: white;
+    font-weight: 500;
+    display: flex;
+    padding: 12px 12px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    /* border: 1px solid black; */
+    border-width: 1px;
+    border-style: solid;
+    border-color: #e6e6e6;
+  }
+
+  .messageDetails {
+    display: flex;
+    gap: 5px;
+    /* align-self: flex-end */
+  }
+  .messageAndImage {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: fit-content;
+  }
+  .messageAndImage img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  .reverse {
+    flex-direction: row-reverse;
+  }
+  

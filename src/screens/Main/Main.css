@@ -1,0 +1,9 @@
+.MainScreen {
+    display: flex;
+}
+.SideBar-Div {
+    width: 5%;
+}
+.SideScreen-Div {
+    width: 95%;
+}

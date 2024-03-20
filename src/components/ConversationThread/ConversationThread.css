@@ -1,0 +1,124 @@
+.conversation-thread {
+    width: 100%;
+    /* max-width: 600px; */
+    /* margin: 0 auto; */
+    height: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+    /* border: 1px solid #ccc;  */
+    /* border: 1px solid #ccc; */
+  }
+  
+  .message-thread {
+    /* margin-top: 20px; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(234, 234, 234); */
+    background-color: rgb(246 246 246);;
+    max-height: 100vh;
+    padding: 0 10px;
+    overflow: auto;
+  }
+  
+  .message-input {
+    /* margin-top: 20px; */
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .message-input input {
+    flex: 1 1;
+    padding: 12px 12px;
+    margin: 0 12px;
+    border-radius: 6px;
+    border-color: #004e96;
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+  .send-button {
+    color: black;
+    cursor: pointer;
+    padding: 0 15px;
+    font-size: 20px;
+    /* right: 5px; */
+  }
+
+  .send-button { 
+    position: relative;
+    right: 6px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: white
+  }
+
+  .conversation-thread-header {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 60px;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding: 0 10px;
+  }
+  .conversation-thread-header h3 {
+    font-size: 22px;
+  }
+  .conversation-box-main {
+    max-height: calc(100vh - 62px) !important;
+    background-color: rgb(246 246 246);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    border: 1px solid #ccc;
+  }
+  .cannot-reply-message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    background-color: white;
+    /* border-radius: 6px; */
+  }
+  .cannot-reply-message span {
+    padding: 16px 5px;
+  }
+  .sendButton {
+    height: 23px;
+    /* cursor: pointer; */
+    /* margin-right: 10px; */
+  }
+  .sendButtonDisabled {
+    height: 23px;
+    /* cursor: pointer; */
+    /* margin-right: 10px; */
+  }
+.sendButtonDiv {
+  background-color: white;
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.sendButtonDivDisabled {
+  background-color: white;
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.noConversationsDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}

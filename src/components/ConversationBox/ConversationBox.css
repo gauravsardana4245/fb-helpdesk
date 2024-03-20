@@ -1,0 +1,29 @@
+.conversation-box {
+    cursor: pointer;
+    padding: 10px 10px;
+    /* margin-bottom: 10px; */
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+    padding-bottom: 15px;
+    /* border: 1px solid #ccc; */
+  }
+  .conversation-info {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .timediff {
+    justify-self: flex-end;
+  }
+  
+  .selected {
+    background-color: #f0f0f0; 
+  }
+  .unselected {
+    background-color: white;
+  }
+  .senderNameinConvoBox {
+    /* font-weight: bold; */
+  }

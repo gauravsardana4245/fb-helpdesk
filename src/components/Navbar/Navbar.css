@@ -1,0 +1,33 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 100vw;
+    background-color: #004e96;
+    padding: 4px 2px;
+    border-bottom: 1px solid white;
+}
+.logoutBtn {
+    cursor: pointer;
+    background-color: white;
+    padding: 6px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+    margin-right: 12px;
+}
+.logoutBtn:hover{
+    background-color: rgb(228, 228, 228);
+}
+.userBox {
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+.loggedInUserName {
+    color: white;
+    font-weight: 500;
+}

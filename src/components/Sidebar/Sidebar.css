@@ -1,0 +1,97 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: #004e96;
+    /* padding: 20px 0; */
+    height: 100%;
+  }
+  
+  .organization-icon {
+    font-size: 24px;
+    /* margin-bottom: 20px; */
+    /* height: 60px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    cursor: pointer;
+  }
+
+  .organization-icon img {
+    height: 34px;
+  }
+  
+  .sidebar-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .sidebar-links li {
+    /* margin-bottom: 10px; */
+  }
+  
+  .sidebar-links a {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+    padding: 20px 22px;
+  }
+  
+  .icon {
+    /* margin-right: 10px; */
+  }
+  
+  .user-avatar {
+    margin-top: auto;
+    font-size: 24px;
+  }
+  .user-avatar img{
+    border-radius: 50%;
+    /* max-height: 4%; */
+  }
+  i{
+    color: white;
+  }
+  .routeLink {
+    /* padding: 20px 0; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 20px 22px;
+  }
+  .selectedIcon {
+    background-color: white;
+    color: #004e96;
+  }
+  .selectedIcon .icon i {
+    color: #004e96;
+    font-size: 18px;
+  }
+  .listItem {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .online-dot {
+    position: relative;
+    bottom: 19px;
+    right: 0px;
+    left: 31px;
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 50%;
+    /* border: 2px solid #fff; */
+  }

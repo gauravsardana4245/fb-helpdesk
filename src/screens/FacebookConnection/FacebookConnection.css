@@ -1,0 +1,151 @@
+.btn {
+    /* border: 1px solid black; */
+    cursor: pointer;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    margin-bottom: 8px;
+    border-radius: 3px;
+}
+.facebookConnectionScreen {
+    background-color: #004e96;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.availablePagesDiv {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    padding: 12px 12px;
+    margin-bottom: 20px;
+}
+.availablePages {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 12px 12px;
+    border-radius: 12px;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+
+.connectedPages {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 12px 12px;
+    border-radius: 12px;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+li {
+    list-style: none;
+}
+.delete-btn {
+    background-color: #ff0000;
+    width: auto;
+    /* padding: 12px 90px;
+    font-weight: 500; */
+}
+.navigate-btn {
+    background-color: #004e96;
+    width: auto;
+    padding: 12px 90px;
+    font-weight: 500;
+}
+.connectedPagesDiv {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    padding: 12px 12px;
+}
+.pageBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin: 10px 0px;
+    border: 2px solid black;
+    padding: 10px 20px;
+}
+
+.headDiv {
+    font-size: 24px;
+    font-weight: bold;
+}
+.pageName {
+    font-weight: bold;
+}
+
+.your-component {
+    position: relative;
+  }
+  
+  .loading {
+    pointer-events: none; 
+  }
+  .loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .loading-bar {
+    width: 100px;
+    height: 10px;
+    background-color: #3498db; 
+  }
+  
+  .content {
+    transition: filter 0.3s ease;
+  }
+  
+  .blur {
+    filter: blur(5px);
+  }
+
+  .circular-loader { 
+    border: 8px solid #2e4474;
+    border-radius: 50%;
+    border-top: 8px solid transparent; 
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+  }
+  .actionText {
+    font-size: 26px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

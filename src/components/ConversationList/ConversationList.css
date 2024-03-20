@@ -1,0 +1,59 @@
+
+.conversation-list {
+    border: 1px solid #ccc;
+    /* padding: 10px;
+    margin: 10px; */
+    max-height: 100%;
+    overflow: auto;
+  }
+  
+  .conversation-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .conversation-header h3 {
+    font-size: 22px;
+  }
+  
+  .refresh-button {
+    margin-right: 11px;
+    font-size: 20px;
+    /* padding: 5px 10px; */
+    border: none;
+    /* color: grey; */
+    cursor: pointer;
+  }
+  
+  .conversation-body {
+    /* margin-top: 10px; */
+  }
+
+  .menu-icon i{
+    color: #a4a4a4;
+    font-weight: bold;
+    margin-left: 8px;
+  }
+
+  .loader-gif {
+    height: 36px;
+    position: relative;
+    left: 7px;
+    top: 2px;
+  }
+  
+  .refresh-icon {
+    color: #454545;
+  }
+.convo-header-subdiv1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 7px;
+    gap: 9px;
+}
+  

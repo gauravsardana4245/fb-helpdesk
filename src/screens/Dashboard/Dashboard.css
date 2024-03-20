@@ -1,0 +1,54 @@
+.dashboardScreen {
+    background-color: #004e96;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.fbLoginBox {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    padding: 12px 12px;
+    margin-bottom: 70px;
+}
+.fbLoginBox button {
+    padding: 12px 50px;
+    background-color: #004e96;
+    cursor: pointer;
+    width: auto;
+    font-weight: 550;
+    /* font-size: 15px; */
+    color: white;
+    border-color: white;
+    border-radius: 4px;
+}
+.fbLoginBox button:hover{
+    background-color: #00519e;
+}
+
+.headDiv {
+    font-size: 24px;
+    font-weight: bold;
+}
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  .actionText {
+    font-size: 26px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
